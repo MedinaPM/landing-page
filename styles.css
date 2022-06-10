@@ -1,0 +1,13 @@
+.icon {
+    width: 50px;
+    height: auto;
+}
+
+li  {
+    list-style-type: none;
+}
+
+.header {
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
