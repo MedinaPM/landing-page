@@ -81,11 +81,14 @@ button  {
     color: #f9faf8;
     padding: 6px 24px;
     border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .info-pic   {
     width: 160px;
-    border-radius: 5px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
 }
 
 .sec-info   {
@@ -98,6 +101,7 @@ button  {
 .img-container  {
     display: flex;
     gap: 60px;
+    margin-bottom: 70px;
 }
 
 .pic-text   {
@@ -113,4 +117,60 @@ button  {
     font-size: 36px;
     font-weight: 700;
     color: #1f2937;
+}
+
+.sec-quote  {
+    background-color: #e5e7eb;
+    padding: 60px 210px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: -20px;
+}
+
+.quote-author   {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.container  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 120px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: #e5e7eb;
+}
+
+.c-a-button {
+    border-color: #e5e7eb;
+    height: min-content;
+}
+
+.sec-call   {
+    padding: 130px;
+}
+
+.c-action-h2  {
+    margin-bottom: -10px;
+}
+
+.c-action-p {
+    font-size: 14px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 25px 0 ;
+}
+
+.footer-text    {
+    text-align: center;
+    font-size: 18px;
 }
